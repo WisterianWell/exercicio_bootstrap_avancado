@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="mb-5 border-bottom">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Loja do Hardware</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cadastro">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="inicio">
+        <div class="container">
+            <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img class="d-block w-100" src="./images/pc-gamer.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img class="d-block w-100" src="./images/rtx4090.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img class="d-block w-100" src="./images/intel.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="mt-5">
+        <div class="container">
+            <h2 class="mb-3">Sobre</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ratione itaque, blanditiis, est quo dignissimos aperiam pariatur dolores facilis sunt obcaecati! Exercitationem doloremque asperiores molestiae voluptate dolorem a minus inventore?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus deserunt dolor expedita quibusdam quod aperiam optio, voluptas modi eius suscipit quasi sequi illum ad distinctio laboriosam nam quaerat sed.
+            </p>
+        </div>
+    </section>
+    <section id="produtos" class="mt-5">
+        <div class="container">
+            <h2 class="mb-3">Produtos</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/memoria-ram.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Memória RAM</h5>
+                            <p class="card-text">
+                                R$ 400,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/gpu.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">GPU</h5>
+                            <p class="card-text">
+                                R$ 3.000,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/cpu.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">CPU</h5>
+                            <p class="card-text">
+                                R$ 2.000,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/gabinete.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Gabinete</h5>
+                            <p class="card-text">
+                                R$ 400,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/psu.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">PSU</h5>
+                            <p class="card-text">
+                                R$ 300,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="./images/cooler.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Cooler</h5>
+                            <p class="card-text">
+                                R$ 150,00
+                            </p>
+                            <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cadastro" class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="mb-3">Cadastre-se</h2>
+                    <form>
+                        <label class="form-label" for="nome">Nome:</label>
+                        <input class="form-control" type="text" id="nome">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input id="email" type="email" class="form-control">
+                        <label class="form-label" for="telefone">Telefone:</label>
+                        <input id="telefone" type="tel" class="form-control">
+                        <label for="senha" class="form-label">Senha:</label>
+                        <input id="senha" type="password" class="form-control">
+                        <button class="btn btn-success mt-3">
+                            Cadastrar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
